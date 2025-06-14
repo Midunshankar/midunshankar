@@ -1,0 +1,150 @@
+.line {
+    background-color: aqua;
+}
+
+#new {
+    font-family: curvive;
+}
+
+H1 {
+    background-color: bisque;
+}
+
+.parent p {
+    color: chartreuse
+}
+
+p:hover {
+    color: green;
+    background-color: aquamarine;
+}
+
+.border {
+    border: 2px solid black;
+    padding-left: 50px;
+    border-radius: 20px;
+    border-style: dotted;
+}
+
+.margin {
+    border: 3px soild black;
+    padding: 50px;
+
+}
+
+.margin2 {
+    border: 3px soild black;
+    margin-top: 50px;
+
+}
+
+.static {
+    position: static;
+}
+
+.position {
+    border: 2px solid violet;
+}
+
+.relative {
+    position: relative;
+    top: 70px;
+    left: 60px;
+}
+
+.page {
+    height: 100vh;
+}
+
+.fixed {
+    position: sticky;
+    left: 80px;
+}
+
+.sticky {
+    position: sticky;
+    top: 0;
+    font-size: xx-large;
+}
+
+.inline {
+    display: inline;
+}
+
+.flex-container {
+    display: flex;
+    /* flex-direction: row-reverse; */
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: aqua;
+    height: 100vh;
+}
+
+.flex-container div {
+    background-color: peachpuff;
+    border: 2px solid brown;
+    height: 100px;
+    width: 100px;
+}
+
+.iterm2 {
+    /* flex-grow: 2;*/
+    flex-shrink: 0;
+}
+
+.bar {
+    display: flex;
+    justify-content: space-between;
+    padding-left: 20px;
+    padding-right: 20px;
+    color: black;
+    background-color: rgb(14, 230, 230);
+    border-radius: 50px;
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+    display: flex;
+    gap: 30px;
+}
+
+.grid-container{
+    display: grid;
+    grid-template-rows: 100px 100px 100px;
+    grid-template-columns: 100px 100px 100px 100px;
+    gap: 1px;
+    border-block-end-color:red
+
+}
+
+/* .grid-container div{
+    background-color: rgb(206, 13, 206);
+    border: 2px soild rgb(5, 5, 5);
+   gap: 10; */
+
+
+.item1 {
+    grid-column-start: 1;
+    grid-column-end: 5;
+    background-color: rgb(255, 104, 3);
+    border: 2px solid black;
+}
+
+.item2 {
+    grid-column-start: 1;
+    grid-column-end: 3;
+    background-color: rgb(3, 154, 255);
+    border: 2px solid black;
+}
+.item3 {
+    grid-column-start: 4;
+    background-color: #ff0606;
+    border: 2px solid black;
+}
+.item4 {
+    grid-column-start: 1;
+    grid-column-end: 5;
+    background-color: rgb(15, 156, 57);
+    border: 2px solid black;  
+}
